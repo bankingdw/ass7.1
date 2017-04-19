@@ -1,0 +1,31 @@
+Create a sample dataset and implement the below Pig commands on the same dataset.
+
+1) Concat
+The CONCAT() function of Pig Latin is used to concatenate two or more expressions of the same type.
+
+2) Tokenize
+The TOKENIZE() function of Pig Latin is used to split a string (which contains a group of words) in a single tuple and returns a bag which contains the output of the split operation.
+
+3) Sum
+The SUM() function of Pig Latin to get the total of the numeric values of a column in a single-column bag. While computing the total, the SUM() function ignores the NULL values.
+
+4) Min
+The MIN() function of Pig Latin is used to get the minimum (lowest) value (numeric or chararray) for a certain column in a single-column bag. While calculating the minimum value, the MIN() function ignores the NULL values.
+
+5) Max
+The Pig Latin MAX() function is used to calculate the highest value for a column (numeric values or chararrays) in a single-column bag. While calculating the maximum value, the Max() function ignores the NULL values.
+
+6) Limit
+The LIMIT operator is used to get a limited number of tuples from a relation.
+
+7) Store
+Storing the loaded data in the file system using the store operator.
+
+8) Distinct
+The DISTINCT operator is used to remove redundant (duplicate) tuples from a relation.
+
+9) Flatten
+An operator that changes the structure of tuples and bags in a way that a UDF cannot. Flatten un-nests tuples as well as bags. The idea is the same, but the operation and result is different for each type of structure.
+
+10) IsEmpty
+The IsEmpty() function of Pig Latin is used to check if a bag or map is empty.
